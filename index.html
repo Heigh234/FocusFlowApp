@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FocusFlow: La app de productividad definitiva para gestionar tareas y alcanzar el estado de Deep Work.">
+    <title>FocusFlow | Domina tu productividad</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="navbar__container">
+            <a href="#" class="navbar__logo" aria-label="Ir al inicio">
+                <span class="navbar__logo-text">FocusFlow</span>
+            </a>
+
+            <nav class="navbar__nav">
+                <ul class="navbar__list">
+                    <li class="navbar__item"><a href="#features" class="navbar__link">Características</a></li>
+                    <li class="navbar__item"><a href="#pricing" class="navbar__link">Precios</a></li>
+                    <li class="navbar__item"><a href="#login" class="navbar__link">Iniciar Sesión</a></li>
+                </ul>
+            </nav>
+
+            <a href="#download" class="button button--primary button--small">Descargar Gratis</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero__container">
+                <div class="hero__content">
+                    <h1 class="hero__title">Domina tu tiempo, <span class="hero__title--highlight">recupera tu enfoque.</span></h1>
+                    <p class="hero__subtitle">
+                        Deja de procrastinar y entra en "La Zona". FocusFlow combina gestión de tareas con técnicas de Deep Work para duplicar tu productividad.
+                    </p>
+                    
+                    <form class="hero__form" action="/subscribe" method="POST">
+                        <label for="email" class="sr-only">Tu correo electrónico</label>
+                        <input 
+                            type="email" 
+                            id="email" 
+                            name="email" 
+                            class="hero__input" 
+                            placeholder="Ingresa tu e-mail" 
+                            required
+                        >
+                        <button type="submit" class="button button--cta">Empezar Ahora</button>
+                    </form>
+                    <p class="hero__disclaimer">Prueba gratuita de 14 días. No requiere tarjeta de crédito.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="features__container">
+                <h2 class="features__heading">Todo lo que necesitas para fluir</h2>
+                
+                <div class="features__grid">
+                    <article class="feature-card">
+                        <div class="feature-card__icon-wrapper">
+                            <svg class="feature-card__icon" viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                        </div>
+                        <h3 class="feature-card__title">Gestión de Tareas</h3>
+                        <p class="feature-card__description">Organiza tus pendientes con un sistema intuitivo de arrastrar y soltar. Prioriza lo importante sobre lo urgente.</p>
+                    </article>
+
+                    <article class="feature-card">
+                        <div class="feature-card__icon-wrapper">
+                            <svg class="feature-card__icon" viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M15 1H9v2h6V1zm-4 13h2V8h-2v6zm8.03-6.61l1.42-1.42c-.43-.51-.9-.99-1.41-1.41l-1.42 1.42A8.962 8.962 0 0012 4c-4.97 0-9 4.03-9 9s4.02 9 9 9a8.994 8.994 0 007.03-14.61zM12 20c-3.87 0-7-3.13-7-7s3.13-7 7-7 7 3.13 7 7-3.13 7-7 7z"/></svg>
+                        </div>
+                        <h3 class="feature-card__title">Modo Deep Work</h3>
+                        <p class="feature-card__description">Bloquea distracciones y activa temporizadores Pomodoro sincronizados con tu ritmo circadiano.</p>
+                    </article>
+
+                    <article class="feature-card">
+                        <div class="feature-card__icon-wrapper">
+                            <svg class="feature-card__icon" viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M3.5 18.49l6-6.01 4 4L22 6.92l-1.41-1.41-7.09 7.97-4-4L2 16.99z"/></svg>
+                        </div>
+                        <h3 class="feature-card__title">Estadísticas Inteligentes</h3>
+                        <p class="feature-card__description">Visualiza tus horas pico de productividad y entiende cómo gastas realmente tu tiempo.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="pricing" class="pricing">
+            <div class="pricing__container">
+                <h2 class="pricing__heading">Planes flexibles para tu ritmo</h2>
+                
+                <div class="pricing__cards">
+                    <div class="price-card">
+                        <div class="price-card__header">
+                            <h3 class="price-card__plan-name">Starter</h3>
+                            <p class="price-card__price">0€<span class="price-card__period">/mes</span></p>
+                        </div>
+                        <ul class="price-card__features">
+                            <li class="price-card__feature">Gestión de tareas básica</li>
+                            <li class="price-card__feature">3 Proyectos activos</li>
+                            <li class="price-card__feature">Estadísticas semanales</li>
+                        </ul>
+                        <a href="#" class="button button--outline button--full">Comenzar Gratis</a>
+                    </div>
+
+                    <div class="price-card price-card--highlight">
+                        <div class="price-card__header">
+                            <h3 class="price-card__plan-name">Pro Flow</h3>
+                            <p class="price-card__price">9.99€<span class="price-card__period">/mes</span></p>
+                        </div>
+                        <ul class="price-card__features">
+                            <li class="price-card__feature"><strong>Proyectos ilimitados</strong></li>
+                            <li class="price-card__feature">Modo Deep Work Personalizado</li>
+                            <li class="price-card__feature">Integración con Calendario</li>
+                            <li class="price-card__feature">Soporte Prioritario</li>
+                        </ul>
+                        <a href="#" class="button button--primary button--full">Obtener Pro</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__top">
+                <div class="footer__brand">
+                    <span class="footer__logo">FocusFlow</span>
+                </div>
+                <div class="footer__links">
+                    <ul class="footer__list">
+                        <li><a href="#" class="footer__link">Términos de Servicio</a></li>
+                        <li><a href="#" class="footer__link">Política de Privacidad</a></li>
+                        <li><a href="#" class="footer__link">Soporte</a></li>
+                    </ul>
+                </div>
+                <div class="footer__social">
+                    <a href="#" class="footer__social-link" aria-label="Twitter">Twitter</a>
+                    <a href="#" class="footer__social-link" aria-label="LinkedIn">LinkedIn</a>
+                    <a href="#" class="footer__social-link" aria-label="Instagram">Instagram</a>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <small class="footer__copyright">&copy; 2024 FocusFlow. Todos los derechos reservados.</small>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
