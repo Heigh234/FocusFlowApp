@@ -2,7 +2,7 @@
 
 **Focus Flow** es una plataforma conceptual diseñada para ayudar a usuarios y equipos a gestionar su productividad mediante una interfaz intuitiva, moderna y libre de distracciones. El diseño prioriza la experiencia de usuario (UX) con una estética oscura y profesional.
 
-[🚀 Ver Demo en Vivo](https://focusfloweb1.netlify.app/)
+[🚀 Ver Demo en Vivo](https://heigh234.github.io/FocusFlowApp/)
 
 ---
 
